@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding:0;
+}
+
+header{
+    background-color: dimgray;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+nav{
+background-color: dimgray;
+text-align: center;
+
+}
+footer{
+    text-align: center;
+    background-color: dimgrey;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.container5{
+    margin: 50px;
+    padding: 10px;
+}
+.container6{
+    margin: 10px;
+    padding: 5px;
+}
+h2{
+    margin: 10px;
+}
+.container1{
+    background-color:whitesmoke;
+    text-align: center;
+}
