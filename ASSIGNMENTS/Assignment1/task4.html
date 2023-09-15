@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image slideshow</title>
+  </head>
+  <body>
+    <img
+      src="../../images/download.jpeg"
+      id="img"
+      width="500px"
+      height="300px"
+    />
+    <button onclick="" id="b1">previous</button>
+    <button onclick="" id="b2">Next</button>
+    <script>
+      //   let pic=document.getElementById("img");
+      //   pic.addEventListener(click)
+      //   function click(){
+
+      //   }
+
+      let arrayOfImages = [];
+
+      arrayOfImages.push(
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz5qHQcnj9ySQ9KHXWP1LvkGqg8ow491yjcIMMgJrqVA&s"
+      );
+      arrayOfImages.push(
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmsq_FRPqUZ0KrqmaXnR5l2Vp0hWJ_ik5dJ-tHX6r8rw&s"
+      );
+      arrayOfImages.push(
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQufAo8QDArHeVKbR_sVg_jKnhvCjia9h_-tpz3SxhE6g&s"
+      );
+      console.log(arrayOfImages);
+      let currentIndex = 0;
+    //   function event() {
+    //     for (i = 0; i <= arrayOfImages.length - 1; i++) {
+    //     //   var img = document.createElement("img");
+    //       document.getElementById("p1").innerHTML="Welcome to next page";
+    //     }
+    //   }
+    const previous = document.getElementById('b1');
+    const next = document.getElementById('b2');
+    const image = document.getElementById('imag');
+
+
+    previous.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      image.src = image[currentIndex];
+    });
+
+
+    </script>
+    <p id="p1"></p>
+  </body>
+</html>
