@@ -5,7 +5,7 @@
 
 header{
     background-color: dimgray;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Times New Roman', Times, serif;
     
     
 }
@@ -16,6 +16,7 @@ h1{
 }
 nav{
 background-color: dimgray;
+border: 2px solid rgb(226, 217, 217);
 text-align: center;
 
 }
@@ -28,20 +29,33 @@ a{
     text-decoration: none;
     color: white;
     font-size: large;
+    
 }
 .container5{
-    margin: 50px;
-    padding: 10px;
-}
-.container6{
     margin: 10px;
     padding: 5px;
+    text-align: center;
 }
+/* .container6{
+    margin: 10px;
+    padding: 5px;
+} */
 h2{
     margin: 10px;
 }
 .container1{
     background-color:whitesmoke;
-    text-align: center;
-    margin: 10px;;
+    /* text-align: center; */
+    margin: 10px;
+    padding: 98px;
+}
+ul{
+    
+        text-align: center;
+        list-style-position: inside;
+
+}
+li{
+    margin: 2px;
+  
 }
