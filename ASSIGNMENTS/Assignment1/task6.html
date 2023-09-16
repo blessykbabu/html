@@ -16,11 +16,11 @@
 
     </form>
     <script>
-        function clickt() {
+        function click(){
             var data = document.getElementById('message').value;
             var obj = JSON.parse(data);
             var details = JSON.stringify(obj);
-            document.getElementById('message').value = pretty;
+            document.getElementById('message').value =details;
             console.log(data)
         }
     </script>

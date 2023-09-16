@@ -12,27 +12,30 @@
 
   <form action="/action.js">
     <label for="Name" id="11" >Name:</label>
-    <input type="text" id="Name"  />
+    <input type="text" id="Name"  /><br>
 
     <label for="password" id="12">password:</label>
-    <input type="password" id="password" />
+    <input type="password" id="password" /><br>
 
-    <input type="button" value="submit" id="s" onclick=""/>
+    <input type="button" value="submit" id="s" onclick="act()"/>
   </form>
+  <p id="p1"></p>
+  <p id="p2"></p>
   <script>
-    const input1 = document.getElementById("s");
-    const n = document.querySelector('Name').value;
-    console.log(n);
-    input1.addEventListener("click", click);
-    function click() {
+    // const input1 = document.getElementById("s");
+    // const n = document.querySelector('Name').value;
+    // console.log(n);
+    // input1.addEventListener("click", click);
+    function act() {
       document.getElementById("p1").innerHTML = "Registered";
-      document.getElementById("p2").innerHTML.value= n;
+       var x=document.getElementById("Name").innerHTML.value;
+       console.log(x);
+      document.getElementById("p2").innerHTML = x;
     }
 
 
   </script>
-  <p id="p1"></p>
-  <p id="p2"></p>
+  
 </body>
 
 </html>
