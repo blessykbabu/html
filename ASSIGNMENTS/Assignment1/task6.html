@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task6</title>
+</head>
+
+<body>
+    <form>
+
+        <label for="message" name="s">suggestions</label>
+        <textarea id="message" cols="50" rows="5"></textarea>
+        <button onclick="click()">Display</button>
+
+    </form>
+    <script>
+        function clickt() {
+            var data = document.getElementById('message').value;
+            var obj = JSON.parse(data);
+            var details = JSON.stringify(obj);
+            document.getElementById('message').value = pretty;
+            console.log(data)
+        }
+    </script>
+    <!-- <textarea id="t1"></textarea> -->
+</body>
+
+</html>
