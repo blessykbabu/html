@@ -1,29 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form validation</title>
-  </head>
-  <body>
-    <h1>Registration</h1>
 
-    <form action="/action.js">
-      <label for="Name" id="11">Name:</label>
-      <input type="text" id="Name" required/>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form validation</title>
+</head>
 
-      <label for="email" id="12">Email</label>
-      <input type="email" id="email" required/>
+<body>
+  <h1>Registration</h1>
 
-      <label for="password" id="13">password:</label>
-      <input type="password" id="password"required />
+  <form action="" name="myform">
+    <label for="Name" id="11">Name:</label>
+    <input type="text" id="Name" name="name"/><br>
 
-      <input type="submit" value="submit" id="s" onclick="click" />
-    </form>
-    <script>
-          const p=document.getElementById("Name");
-          p.addEventListener("p")
-          
-    </script>
-  </body>
+    <label for="email" id="12">Email</label>
+    <input type="email" id="email1" name="email" /><br>
+
+    <label for="password" id="13">password:</label>
+    <input type="password" id="password1" name="password" /><br>
+
+    <input type="submit" value="submit" id="s" onclick="validateform()" />
+  </form >
+  <script>
+    // const p=document.getElementById("Name");
+    // p.addEventListener("p")
+    function validateform() {
+      var name = document.myform.name.value;
+      var password = document.myform.password.value;
+      var email = document.myform.email.value;
+
+      if (name == null || name == "") {
+        alert("Please eneter Name");
+        return false;
+      }
+      else if (email=="" ) {
+        alert("Please eneter email.");
+        return false;
+      }
+      else if (password=="" ) {
+        alert("Please eneter password");
+        return false;
+      } else if (password.length < 6 ) {
+        alert("Password must be at least 6 characters long.");
+        return false;
+      }
+      
+    }
+
+  </script>
+</body>
+
 </html>

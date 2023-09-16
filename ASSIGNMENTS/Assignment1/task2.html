@@ -11,13 +11,13 @@
   <h1>Registration</h1>
 
   <form action="/action.js">
-    <label for="Name" id="11" >Name:</label>
-    <input type="text" id="Name"  /><br>
+    <label for="Name" id="11">Name:</label>
+    <input type="text" id="Name" /><br>
 
     <label for="password" id="12">password:</label>
     <input type="password" id="password" /><br>
 
-    <input type="button" value="submit" id="s" onclick="act()"/>
+    <input type="button" value="submit" id="s" onclick="act()" />
   </form>
   <p id="p1"></p>
   <p id="p2"></p>
@@ -27,15 +27,17 @@
     // console.log(n);
     // input1.addEventListener("click", click);
     function act() {
-      document.getElementById("p1").innerHTML = "Registered";
-       var x=document.getElementById("Name").innerHTML.value;
-       console.log(x);
-      document.getElementById("p2").innerHTML = x;
+      document.getElementById("p1").innerHTML = "Successfully Registered";
+      const x = document.getElementById("Name");
+      const y = document.getElementById("s");
+      const z = document.getElementById("p2");
+      z.innerHTML = "Hello, "+Name.value;
+
     }
 
 
   </script>
-  
+
 </body>
 
 </html>

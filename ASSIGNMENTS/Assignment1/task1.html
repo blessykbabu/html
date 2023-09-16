@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML PAGE</title>
-    <!-- <script src="task.js>"></script> -->
-  </head>
-  <body>
-    <h1>Welcome</h1>
-    <p>This is a welcome page.</p>
-    <button id="b1">Next page</button>
-    <p id="para"></p>
-    <script>
-      const a = document.getElementById("b1");
-      a.addEventListener("click", click);
-      function click() {
-        document.getElementById("para").innerHTML="Welcome to next page";
-      }
-    //   const b = document.getElementById("para");
-    //   b.addEventListener("click")
-    </script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML PAGE</title>
+  <style>
+    h1 {
+      text-align: center;
+      border: 2px;
+      background-color: aquamarine;
+      font-size: 50px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+    }
+
+    body {
+      background-color: rgb(127, 194, 194);
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>Kerala </h1>
+  <p id="p1">Kerala is a popular destination for both domestic as well as foreign tourists. Kerala is well known for its
+    beaches, backwaters in Alappuzha and Kollam, mountain ranges and wildlife sanctuaries.Kerala is famous for a number
+    of things like Ayurveda, houseboats, spices, the town of Munnar, eco-tourism, Kathakali dance, coconut oil, the
+    Aranmula mirror, the festival of Thrissur Pooram, the practice of Kalaripayattu and more.</p>
+  <button id="b1" style="background-color:cornflowerblue;">Tourism</button>
+
+  <script>
+    const a = document.getElementById("b1");
+    const b = document.getElementById("p1");
+    a.addEventListener("click", click);
+    function click() {
+      document.getElementById("p1").innerHTML = "Kerala, a state situated on the tropical Malabar Coast of southwestern India, is one of the most popular tourist destinations in the country. Named as one of the ten paradises of the world by National Geographic Traveler,[1] Kerala is famous especially for its ecotourism initiatives and beautiful backwaters.[2] Its unique culture and traditions, coupled with its varied demography, have made Kerala one of the most popular tourist destinations in the world. Several international agencies ranging from UNESCO to National Geographic have recognised the state's tourism potential.[3] Kerala was named by TIME magazine in 2022 among the 50 extraordinary destinations to explore in its list of the World's Greatest Places.[4] In 2023, Kerala was listed at the 13th spot in The New York Times' annual list of places to visit and was the only tourist destination listed from India.";
+    }
+
+
+  </script>
+</body>
+
 </html>
