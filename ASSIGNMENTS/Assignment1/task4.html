@@ -2,63 +2,37 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>image slideshow</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
 <body>
-  <img src="../../images/download.jpeg" id="img" width="500px" height="300px" />
-  <button onclick="action()" id="b1">previous</button>
-  <button onclick="action()" id="b2">Next</button>
-  <p id="p1"></p>
-  <script>
-    //   let pic=document.getElementById("img");
-    //   pic.addEventListener(click)
-    //   function click(){
+    <img src="../../images/download.jpeg" alt="" class="pic">
+    <button class="b1" onclick="prev()">previous</button>
+    <button class="b2" onclick="next()">Next</button>
+    <script>
+        var s_image = document.querySelector('.pic');
+         var images=['download1.jfif','download2.jfif','download3.jfif','download4.jfif']
+        var i=0;
+        function prev(){
+            if(i<=0)
+            i=images.length;
+           i--;
+           
+           return slide()
 
-    //   }
-
-    let arrayOfImages = [];
-
-    arrayOfImages.push(
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz5qHQcnj9ySQ9KHXWP1LvkGqg8ow491yjcIMMgJrqVA&s"
-    );
-    arrayOfImages.push(
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmsq_FRPqUZ0KrqmaXnR5l2Vp0hWJ_ik5dJ-tHX6r8rw&s"
-    );
-    arrayOfImages.push(
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQufAo8QDArHeVKbR_sVg_jKnhvCjia9h_-tpz3SxhE6g&s"
-    );
-    console.log(arrayOfImages);
-    let currentIndex = 0;
-    //   function event() {
-    //     for (i = 0; i <= arrayOfImages.length - 1; i++) {
-    //     //   var img = document.createElement("img");
-    //       document.getElementById("p1").innerHTML="Welcome to next page";
-    //     }
-    //   }
-    // const previous = document.getElementById('b1');
-    // const next = document.getElementById('b2');
-    // const image = document.getElementById('imag');
-
-
-    // previous.addEventListener('click', () => {
-    //   currentIndex = (currentIndex - 1 + images.length) % images.length;
-    //   image.src = image[currentIndex];
-    // });
-    document.getElementById("b1").addEventListener("click", arrayOfImages);
-    function action() {
-      for (i = 0; i <= arrayOfImages.length - 1; i++) {
-      //   var img = document.createElement("img");
-      document.getElementById("p1").innerHTML = arrayOfImages;
-      
-    }
-
-  }
-
-  </script>
-
+        }
+        function next(){
+            if(i>=images.length-1)
+            i=-1;
+        i++;
+        return slide();
+        }
+        function slide(){
+            return s_image.setAttribute('src','imagesfolder/'+images[i]);
+        }
+    </script>
 </body>
 
 </html>
