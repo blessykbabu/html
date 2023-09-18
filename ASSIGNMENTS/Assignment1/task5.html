@@ -1,35 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>task5</title>
-</head>
-<body>
-    <header>
-        <h1>welcome</h1>
-    </header>
     <style>
-        div {
-          width: 30px;
-          height: 6px;
-          background-color: black;
-          margin-top: 6px;
+        
+        .d1 {
+            height: 3px;
+            width: 30px;
+            background-color: black;
         }
-       
+
+        .container1 {
+            float: right;
+            height: 25px;
+            width: 40px;
+            display: flex;
+            /* background-color: brown; */
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: cadetblue;
+            font-size: 30px;
+        }
+
+        .list {
+            transform: translate3d(-500px);
+        }
     </style>
-    <body>
-        <h2> Hamburger icon </h2>
-        <div class="container1"></div>
-        <nav class="nav">
-            <ul type="none">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            </nav>
-        <script>
-            
-        </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container1">
+            <div class="d1"></div>
+            <div class="d1"></div>
+            <div class="d1"></div>
+        </div>
+    </div>
+    <ul clas="list">
+        <li><a href="#" class="a">Home</a></li>
+        <li> <a href="#" class="a">About</a></li>
+        <li> <a href="#" class="a">Contact</a></li>
+        <li> <a href="#" class="a">Courses</a></li>
+    </ul>
+    <script>
+        var b = document.querySelector('.container');
+        var m = document.querySelector('.list');
+        b.addEventListener('click', action())
+        function action(){
+
+        }
+    </script>
 </body>
+
 </html>
