@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css units</title>
+</head>
+<style>
+    #container1{
+        border:4px solid green;
+        background-color: aqua;
+    }
+    #container2{
+        border: 4px solid pink;
+        background-color: brown;
+        height: 20vh;
+        width: 20vw;
+        font-size: 70%;
+        font-size: 2em;
+        /*  1st 70 % of the parent div.2nd double of parent div.ie, here container1 */
+    }
+    #container3{
+        border: 4px solid blueviolet;
+        background-color: cornflowerblue;
+        font-size: 2rem;                        
+         /* double of root element font size.ie,html ,16px double 32 px */
+    }
+</style>
+
+<body>
+    <div id="container1">
+        This is 1st container1
+        <div id="container2">
+            This is 2nd container
+     
+        </div>
+        <div id="container3">
+            This is container3
+          </div>
+    </div>
+</body>
+
+</html>
