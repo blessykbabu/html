@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        #container1{
+            background-color: blueviolet;
+            width:70vw;
+            height: 50vh;
+            /* default position is static.static:left,right,top,bottom,z-index properties have no effect */
+            position: relative;
+            top: 78px;
+            /* position: sticky; */
+                 /* when the content is scrolled it didnot scroled out the body */
+        }
+        #container2{
+            background-color: aquamarine;
+            width:20vw;
+            height:20vh;
+            position: relative;
+                 /* the inner container relative to parent container.ie, the changes affect related to the parent container. */
+            top: 78px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container1">
+        this is a container 1
+        <div id="container2">
+           this is a container2
+        </div>
+    </div>
+</body>
+</html>
