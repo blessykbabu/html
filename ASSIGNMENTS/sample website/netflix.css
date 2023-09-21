@@ -1,4 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#div1{
+    /* display: flex; */
+    background-image:url("./IN-en-20230911-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    width:100vw;
+    height: 80vh;
+    z-index: -1;
+
+
+}
+ #nav1{
+    position: relative;
+    border: 2px solid red;
+    align-items: center;
+   
+}
+button{
+    right: 20px;
+}
+
 #b1{
     background-color: red;
+    color: white;
+   
     
 }
