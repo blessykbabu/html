@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    background-color: blueviolet;
+    width:50vw;
+    height:50vh;
+    display: flex;
+    align-items: center;
+}
+.child{
+    background-color: aquamarine;
+    width:40vw;
+    height:20vh;
+}
+@media only screen and(min-width:300px){
+    .container{
+        background-color: green;
+    }
+}

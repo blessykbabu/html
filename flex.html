@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+    #div1{
+        background-color: yellow;
+        width:50vw;
+        height:60vh;
+        display:flex;
+        /* flex-direction:row-reverse; */
+        align-items:center;
+        /* justify-content: center; */
+        flex-wrap: wrap;
+        
+    }
+    
+    .container{
+        background-color: aqua;
+        width:20vw;
+        height:20vh;
+        margin: 1em;
+        color:white;
+        font-size: large;
+    }
+    .c{
+        align-self: flex-start;
+        background-color: blue;
+    }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <div class="container  c" >1</div>
+        <div class="container">2</div>
+        <div class="container">3</div>
+    </div>
+</body>
+</html>
