@@ -7,6 +7,7 @@
     background-image:url("./images/IN-en-20230911-popsignuptwoweeks-perspective_alpha_website_large.jpg");
     width:100vw;
     height: 80vh;
+    border: 6px solid gray;
 
 }
 .navbar{
@@ -14,9 +15,11 @@
     width: 100% !important;
     padding: 30px 100px;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    justify-content: space-between;
+    height: 1em;
 }
 .img{
     width: 170px;
@@ -30,7 +33,7 @@
 
 #b1{
     background-color:red;
-    border: 3px solid black;
+    border: 2px solid black;
     color: white;
     padding: 15px 20px;
     text-align: center;
@@ -70,23 +73,76 @@
     cursor: pointer;
   
 }
-select:after{
-    position: absolute;
-  content: "";
-  top: 14px;
-  right: 10px;
-  width: 0;
-  height: 0;
-  border: 6px solid transparent;
-  border-color: #fff transparent transparent transparent;
-}
+
 .content {
+ position: relative;
 color: white;
 display: flex;
 align-items: center;
 justify-content: center;
+flex-direction:column;
+flex-wrap: wrap;
+top:15vw;
+font-family: Arial, Helvetica, sans-serif;
+
 }
-.content p{
-    font-size: 20px;
+.content h1{
+    font-size:xx-large;
 }
 
+.content_child{
+    margin: 1em;
+    
+}
+.content p{
+    font-size:30px;
+}
+.content h3{
+    font-size:30px; 
+}
+#start{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.email{
+    width: 100%;
+    font-size: 20px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: black;
+   
+    
+}
+#start_button{
+    background-color: red;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family:Arial, Helvetica, sans-serif;
+    width:10vw;
+    
+}
+::placeholder{
+    color:white;
+}
+#div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: 100vw;
+    height:50vh ;
+    border: 6px solid gray;
+    color: white;
+}
