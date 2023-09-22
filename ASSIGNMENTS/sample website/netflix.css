@@ -3,39 +3,90 @@
     padding: 0px;
 }
 #div1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image:url("./IN-en-20230911-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    
+    background-image:url("./images/IN-en-20230911-popsignuptwoweeks-perspective_alpha_website_large.jpg");
     width:100vw;
     height: 80vh;
+
 }
- #nav1{
-    border: 2px solid red;
-    align-self: start;
-    width: 100vw;
-    height: 15vh;  
+.navbar{
+    position: relative;
+    width: 100% !important;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+    width: 170px;
+    left: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+   
 }
 
 #b1{
-    background-color: red;
-    color: white; 
-    width:8%;
-    height: 50%;
+    background-color:red;
+    border: 3px solid black;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    
 }
+
+.select_button{
+    position: relative;
+    width:35%;
+    display: inline;
+
+}
+
 #b1:hover{
    background-color: black;
 }
-#div1 div{
-    color: white;
-    width: 20vw;
-    align-self: center;
-    justify-self: center;
-    align-content: center;
-    
-
+.select_button select{
+   
+    background-color: black;
+    color:white;
+    width: 100px;
+    width: 140px;
+    height: 35px;
+    padding: 4px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px #999;
+    border: none;
+    outline: none;
+    display: inline-block;
+    cursor: pointer;
+  
 }
-/* #div1 div1_child{
-    align-self: center;
-    justify-self:center;
-} */
+select:after{
+    position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+.content {
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.content p{
+    font-size: 20px;
+}
+
