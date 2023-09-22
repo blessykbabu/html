@@ -3,27 +3,39 @@
     padding: 0px;
 }
 #div1{
-    /* display: flex; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image:url("./IN-en-20230911-popsignuptwoweeks-perspective_alpha_website_large.jpg");
     width:100vw;
     height: 80vh;
-    z-index: -1;
-
-
 }
  #nav1{
-    position: relative;
     border: 2px solid red;
-    align-items: center;
-   
-}
-button{
-    right: 20px;
+    align-self: start;
+    width: 100vw;
+    height: 15vh;  
 }
 
 #b1{
     background-color: red;
-    color: white;
-   
-    
+    color: white; 
+    width:8%;
+    height: 50%;
 }
+#b1:hover{
+   background-color: black;
+}
+#div1 div{
+    color: white;
+    width: 20vw;
+    align-self: center;
+    justify-self: center;
+    align-content: center;
+    
+
+}
+/* #div1 div1_child{
+    align-self: center;
+    justify-self:center;
+} */
