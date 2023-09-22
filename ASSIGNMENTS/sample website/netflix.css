@@ -6,9 +6,12 @@
     
     background-image:url("./images/IN-en-20230911-popsignuptwoweeks-perspective_alpha_website_large.jpg");
     width:100vw;
-    height: 80vh;
+    height: 90vh;
     border: 6px solid gray;
-
+    background-size: cover;
+    opacity:75%;
+    /* background-color:rgba(152, 66, 211, 1); */
+  
 }
 .navbar{
     position: relative;
@@ -19,7 +22,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 1em;
+    height: 20px;
 }
 .img{
     width: 170px;
@@ -82,7 +85,7 @@ align-items: center;
 justify-content: center;
 flex-direction:column;
 flex-wrap: wrap;
-top:15vw;
+top:20%;
 font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -95,24 +98,31 @@ font-family: Arial, Helvetica, sans-serif;
     
 }
 .content p{
-    font-size:30px;
+    font-size:20px;
 }
 .content h3{
-    font-size:30px; 
+    font-size:20px; 
 }
 #start{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    justify-content: space-around;
 }
 .email{
-    width: 100%;
-    font-size: 20px;
-    width: 100%;
+    /* width: 100%;
+    font-size: 10px;
+    width: 30vw;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    background-color: black;
+    background-color: black; */
+    width: 300px;
+    padding: 10px 20px;
+    border-color: black;
+    border: 2px solid black;
+    font-size: 15px;
+    background: transparent;
    
     
 }
@@ -120,7 +130,7 @@ font-family: Arial, Helvetica, sans-serif;
     background-color: red;
     border: 2px solid white;
     color: white;
-    padding: 15px 20px;
+    padding: 8px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -129,7 +139,8 @@ font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     border-radius: 7px;
     font-family:Arial, Helvetica, sans-serif;
-    width:10vw;
+    width:15vw;
+    height:7vh;
     
 }
 ::placeholder{
@@ -137,12 +148,29 @@ font-family: Arial, Helvetica, sans-serif;
 }
 #div2{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: blue;
+    background-color:black;
     width: 100vw;
     height:50vh ;
     border: 6px solid gray;
     color: white;
+  
+   
+}
+.div2_child{
+  display: flex;  
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  margin:6em;
+  width:50vw;
+ 
+}
+.div2_child h1{
+    font-size: 3em;
 }
