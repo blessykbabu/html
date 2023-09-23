@@ -5,26 +5,39 @@
 #div1{
     
     background-image:url("./images/IN-en-20230911-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    /* width:1654px; */
     width:100vw;
-    height: 90vh;
-    border: 6px solid gray;
+    height:700px;
+    border-bottom: 6px solid gray;
     background-size: cover;
-    opacity:75%;
+    /* opacity:75%; */
     /* background-color:rgba(152, 66, 211, 1); */
   
 }
 .navbar{
     position: relative;
-    width: 100% !important;
-    padding: 30px 100px;
+    /* width: 100% !important;
+    padding: 30px 100px; */
+    margin: -8px 0px 0px -16px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 20px;
+  
 }
-.img{
+.navbar span{
+    font-size: xx-large;
+    color: red;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-variant: small-caps;
+    font-style: italic;
+    margin-left:10em;
+ 
+}
+/* .img{
     width: 170px;
     left: 200px;
     display: block;
@@ -32,7 +45,7 @@
     margin-right: auto;
 
    
-}
+} */
 
 #b1{
     background-color:red;
@@ -47,6 +60,8 @@
     cursor: pointer;
     border-radius: 10px;
     font-family:Arial, Helvetica, sans-serif;
+    width:76.91px;
+    height: 32px;
     
 }
 
@@ -64,10 +79,9 @@
    
     background-color: black;
     color:white;
-    width: 100px;
-    width: 140px;
-    height: 35px;
-    padding: 4px;
+    width: 126px;
+    height: 32px;
+    padding: 6px 36px;
     border-radius: 4px;
     box-shadow: 2px 2px 8px #999;
     border: none;
@@ -90,7 +104,9 @@ font-family: Arial, Helvetica, sans-serif;
 
 }
 .content h1{
-    font-size:xx-large;
+    /* width:1282px;
+    height: 30px; */
+    font-size:48px;
 }
 
 .content_child{
@@ -98,7 +114,9 @@ font-family: Arial, Helvetica, sans-serif;
     
 }
 .content p{
-    font-size:20px;
+    /* width:1282.33px;
+    height:30px; */
+    font-size:24px;
 }
 .content h3{
     font-size:20px; 
@@ -120,7 +138,7 @@ font-family: Arial, Helvetica, sans-serif;
     width: 300px;
     padding: 10px 20px;
     border-color: black;
-    border: 2px solid black;
+    border: 1px solid white;
     font-size: 15px;
     background: transparent;
    
@@ -147,82 +165,171 @@ font-family: Arial, Helvetica, sans-serif;
     color:white;
 }
 #div2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color:black;
-    width: 100vw;
-    height:50vh ;
-    border: 6px solid gray;
-    color: white;
+    background-color: black;
+    width:100vw;
+    border-bottom: 6px solid gray;
   
    
 }
-.div2_child{
-  display: flex;  
-  flex-direction:column;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  font-family: Arial, Helvetica, sans-serif;
-  margin:6em;
-  width:50vw;
- 
+.divv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.div2_child h1{
-    font-size: 3em;
+.div2_child {
+    width: 641.16px;
+    height: 162px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
 }
+.div2_child h2{
+    width: 635.16px;
+    height: 62px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 48px;
+}
+.div2_child p{
+    width: 635.16px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 24px;
+   
+}
+.innerchild_div2child{
+    width: 635.16px;
+    height: 476.36px;
+}
+
+
 
 #div3{
     background-color: black;
     width:100vw;
-    height: 50vh;
+    
+    /* display: flex;
+   
+    align-items: center;
+    justify-content: center; */
+    /* flex-wrap: wrap; */
+    
+    border-bottom: 6px solid gray;
+
+   
+}
+.divv3{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    align-content: center;
     flex-wrap: wrap;
-    border: 6px solid gray;
 }
-.div3_child{
+.div33_child{
+    width: 640px;
+    height: 480px;
+    /* margin:16em;
+  width:50vw; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  */
+}
+
+.innerchild_div3child h1{
+    width: 523.91px;
+    height: 124px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    margin:6em;
-  width:50vw;
- 
-}
-.div3_child h1{
     font-size: 3em;
 }
-#div3 video{
-    padding-left: 2em;
+.innerchild_div3child p{
+    width: 523.91px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   
 }
+
 #div4{
     background-color: black;
     width:100vw;
-    height: 50vh;
+    border-bottom: 6px solid gray;
+    
+}
+.divv4{
     display: flex;
-    flex-direction:row;
     align-items: center;
     justify-content: center;
-    align-content: center;
     flex-wrap: wrap;
-    border: 6px solid gray;
 }
-
-.div4_child{
+.div4_child {
+    width: 641.16px;
+    height: 162px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    margin:6em;
-  width:50vw;
- 
+    
 }
-.div4_child h1{
-    font-size: 3em;
+.innerchild_div4child{
+    width: 635.16px;
+    height: 476.36px;
 }
-/* .innerchild_div4child{
-    padding-left: 20px;
-} */
+.div4_child h2{
+    width: 635.16px;
+    height: 62px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 48px;
+}
+.div4_child p{
+    width: 635.16px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 24px;
+   
+}
+
+
+
+#div5{
+    background-color: black;
+    width:100vw;
+    border-bottom: 6px solid gray;
+    /* padding: 72px 0px; */
+   
+}
+.divv5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.div5_child {
+    width: 641.16px;
+    height: 192px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+.div5_child h2{
+    width: 635.16px;
+    height: 62px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 48px;
+}
+.div4_child p{
+    width: 635.16px;
+    height: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 24px;
+   
+}
+.innerchild_div5child{
+    width: 635.16px;
+    height: 476.36px;
+}
