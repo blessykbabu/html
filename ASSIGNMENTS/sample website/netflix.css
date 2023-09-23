@@ -174,3 +174,29 @@ font-family: Arial, Helvetica, sans-serif;
 .div2_child h1{
     font-size: 3em;
 }
+
+#div3{
+    background-color: black;
+    width:100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border: 6px solid gray;
+}
+.div3_child{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin:6em;
+  width:50vw;
+ 
+}
+.div3_child h1{
+    font-size: 3em;
+}
+#div3 video{
+    padding-left: 4em;
+}
