@@ -180,7 +180,7 @@ font-family: Arial, Helvetica, sans-serif;
     width:100vw;
     height: 50vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     align-content: center;
@@ -198,5 +198,31 @@ font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
 }
 #div3 video{
-    padding-left: 4em;
+    padding-left: 2em;
 }
+#div4{
+    background-color: black;
+    width:100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border: 6px solid gray;
+}
+
+.div4_child{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin:6em;
+  width:50vw;
+ 
+}
+.div4_child h1{
+    font-size: 3em;
+}
+/* .innerchild_div4child{
+    padding-left: 20px;
+} */
