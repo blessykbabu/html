@@ -18,7 +18,7 @@
     position: relative;
     /* width: 100% !important;
     padding: 30px 100px; */
-    margin: -8px 0px 0px -16px;
+    margin: 1px 0px 0px -16px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -49,19 +49,20 @@
 
 #b1{
     background-color:red;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     color: white;
-    padding: 15px 20px;
+    /* padding: 15px 20px; */
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 8px;
     font-family:Arial, Helvetica, sans-serif;
-    width:76.91px;
-    height: 32px;
+    width:100px;
+    height: 35px;
+    box-shadow: 2px 2px 8px #999;
     
 }
 
@@ -73,13 +74,14 @@
 }
 
 #b1:hover{
-   background-color: black;
+   /* background-color: black; */
+   opacity:0.70;
 }
 .select_button select{
    
     background-color: black;
     color:white;
-    width: 126px;
+    width: 150px;
     height: 32px;
     padding: 6px 36px;
     border-radius: 4px;
@@ -176,6 +178,7 @@ font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 .div2_child {
     width: 641.16px;
@@ -290,6 +293,7 @@ font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 .div5_child {
     width: 641.16px;
@@ -386,6 +390,7 @@ font-family: Arial, Helvetica, sans-serif;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-align: center;
+    margin-top: 10px;
 }
 
 #div7{
@@ -399,7 +404,58 @@ font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
+        display: inline;
+        /* margin-top: 30px; */
     }
+  
     .divv7 a{
         color: white;
+        margin-left: 5px;
+        margin-top: 10px;
     }
+    .child7 a{
+        color: white;
+    }
+
+    .innerchild_div7child{
+        display: flex;
+    }
+    .child777{
+        margin:2em;
+    }
+    .child7{
+        margin:2em;
+    }
+    .child77{
+        margin:2em;
+    }
+    .child7777{
+        margin:2em;
+    }
+    .child77 a{
+        margin-top: 2px;
+    }
+
+    .last span{
+        color: white;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+    .last{
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .second{
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .sub{
+        margin-right: 300px;
+    }
+    .sub1{
+        margin-left: 300px;
+    }
+  
