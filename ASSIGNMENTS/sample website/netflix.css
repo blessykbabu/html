@@ -305,7 +305,7 @@ font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 48px;
 }
-.div4_child p{
+.div5_child p{
     width: 635.16px;
     height: 90px;
     font-family: Arial, Helvetica, sans-serif;
@@ -336,10 +336,70 @@ font-family: Arial, Helvetica, sans-serif;
 .button1{
     width:796.55px;
     height: 68.79;
-    background-color: grey;
+   background-color:  #444343;
+    text-decoration: none;
+    border: 0px;
+    margin-top: 35px;
+    margin-left: 2px;
 }
 .divv6 span{
     width:125.04px;
     height: 20.8px;
     font-size: 18px;
+    background-color:#444343;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
 }
+.div6_child{
+    background-color: #444343;
+    width:1100px;
+    height: 80px;
+    
+}
+.bb1{
+    margin: 10px;
+}
+.bb2{
+    margin: 10px;
+}
+.bb3{
+    margin: 10px;
+}
+.bb3{
+    margin: 10px;
+}
+.bb4{
+    margin: 10px;
+}
+.bb5{
+    margin: 10px;
+}
+.bb6{
+    margin: 10px;
+}
+.div6_child img{
+    margin-right: 200px;
+}
+.divv6 h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#div7{
+        background-color: black;
+        width:100vw;
+        border-bottom: 6px solid gray;
+        /* padding: 72px 0px; */
+       
+    }
+    .divv7 h3{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    .divv7 a{
+        color: white;
+    }
