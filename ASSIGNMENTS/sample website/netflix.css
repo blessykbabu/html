@@ -166,6 +166,10 @@ font-family: Arial, Helvetica, sans-serif;
 ::placeholder{
     color:white;
 }
+
+
+
+
 #div2{
     background-color: black;
     width:100vw;
@@ -209,6 +213,9 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 
+
+
+
 #div3{
     background-color: black;
     width:100vw;    
@@ -239,6 +246,14 @@ font-family: Arial, Helvetica, sans-serif;
     color: white;
    
 }
+
+
+
+
+
+
+
+
 
 #div4{
     background-color: black;
@@ -278,6 +293,11 @@ font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
    
 }
+
+
+
+
+
 
 
 
@@ -322,6 +342,13 @@ font-family: Arial, Helvetica, sans-serif;
     height: 476.36px;
 }
 
+
+
+
+
+
+
+
 #div6{
     background-color: black;
     border-bottom: 6px solid gray;
@@ -329,7 +356,8 @@ font-family: Arial, Helvetica, sans-serif;
     padding: 72px 0px;
 }
 .divv6{
-   
+       
+    margin-left: 250px;
 }
 .divv6 h2{
     color: white;
@@ -342,9 +370,9 @@ font-family: Arial, Helvetica, sans-serif;
     height: 68.79;
    background-color:  #444343;
     text-decoration: none;
-    border: 0px;
     margin-top: 35px;
-    margin-left: 2px;
+    text-align: left;
+    border: 0px;
 }
 .divv6 span{
     width:125.04px;
@@ -360,7 +388,9 @@ font-family: Arial, Helvetica, sans-serif;
     width:1100px;
     height: 80px;
     
+    
 }
+
 .bb1{
     margin: 10px;
 }
@@ -392,20 +422,40 @@ font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-top: 10px;
 }
+.sub{
+    margin-right: 800px;
+}
+.sub1{
+    margin-left: 300px;
+}
+
+
+
+
+
+
 
 #div7{
         background-color: black;
         width:100vw;
         border-bottom: 6px solid gray;
         /* padding: 72px 0px; */
-       
+        position: relative;
+     
     }
-    .divv7 h3{
+    .divv7{
+      
+        margin-left: 250px;
+        
+    }
+    #div7 h3{
         font-size: 14px;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
-        display: inline;
-        /* margin-top: 30px; */
+        display: block;
+        margin-left: 50px;
+        margin-top: 20px;
+        position:absolute
     }
   
     .divv7 a{
@@ -419,6 +469,8 @@ font-family: Arial, Helvetica, sans-serif;
 
     .innerchild_div7child{
         display: flex;
+        flex-wrap: wrap;
+      
     }
     .child777{
         margin:2em;
@@ -452,10 +504,4 @@ font-family: Arial, Helvetica, sans-serif;
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    .sub{
-        margin-right: 300px;
-    }
-    .sub1{
-        margin-left: 300px;
-    }
-  
+   
