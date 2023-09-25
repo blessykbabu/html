@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navbar{
+    padding: 8px 24px;
+    width: 100vw;
+    border: 2px solid green;
+    background-color: aqua;
+}
+.listing{
+    display: flex;
+    list-style-type: none ;
+    margin: 0px 0px 24px;
+    padding: 0px 5px 5px 20px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
