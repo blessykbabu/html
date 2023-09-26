@@ -8,29 +8,41 @@
     padding: 8px 24px;
     width: 100vw;
     position: relative;
+   
 }
 .listing{
     display: flex;
     list-style-type: none ;
     position: relative;
-    margin-top: -50px;
-    margin-left: 40px;
+    margin-top: -100px;
+    margin-left: 300px;
+    margin-bottom: 10px;
     /* margin: 0px 0px 24px;
     padding: 0px 5px 5px 20px; */
+}
+.theodinproject{
+    margin-top: -90px;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 90px;
+    margin-right: 600px;
+    position: relative;
+    margin-top: 10px;
 }
 .navbar a{
     color: rgb(155, 154, 154);
     text-decoration: none;
-    margin-right: 40px;
+    margin-right: 60px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 .navbar li{
     position: relative;
     /* margin-right: 10px; */
-    margin-left: 60px;
+    margin-left: 90px;
     padding: 3px;
     margin-top: 0px;
+    margin-bottom: 60px;
 }
 li button{
     background-color:rgb(97, 158, 143);
@@ -44,5 +56,144 @@ li button{
     padding: 2px;
 }
 .div1 h1{
-    font-size: 42px;
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
 }
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    margin-right: 20px;
+}
+.div1 p{
+    color: #6B7280;
+    line-height: 30px;
+    font-size: 20px;
+    margin-left:700px;
+    margin-top: 10px;
+    width: 500px;
+    height: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.under_h3tag{
+display: block;
+margin-left: 70px;
+
+}
+.view{
+    background-color: white;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+   border: 1px solid rgb(242, 240, 240);
+   border-radius: 5px;
+   width: 180px;
+   height: 40px;
+   padding: 2px;
+   margin-left: 800px;
+   margin-top: 10px;
+}
+
+
+
+
+.content_child{
+    width: 768px;
+    height: 140px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.content_child h2{
+    font-size: 30px;
+    margin-left: 300px;
+    color: #1F2937;
+}
+.content_child p{
+    font-size: 18px;
+    margin-top: 15px;
+    width: 768px;
+    height: 84px;
+    line-height:40px;
+    margin-left: 70px;
+    color: #4B5563;
+}
+.p_span1{
+    margin-left: 5px;
+}
+.p_span2{
+    display: block;
+    margin-left: -20px;
+}
+.p_span3{
+    display: block;
+ margin-left: 200px;
+}
+.center_img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.image_div{
+    /* margin: 1em; */
+    width:341.33px;
+    height: 372px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.image_div h3{
+    font-size: 20px;
+    color: #4B5563;
+    margin: 32px 0px 16px;
+    width: 301.33px;
+    height: 28px;
+    
+}
+.image_div p{
+    color: #4B5563;
+    font-size: 16px;
+}
+.i_div1 p{
+  width: 301.33px;
+  height: 72px;
+}
+.i_div1 img{
+    width:106.06px;
+    height:160px;
+}
+.i_div2 img{
+    width:206.44px;
+    height:160px;
+}
+.i_div3 img{
+    width:174.86px;
+    height:160px;
+}
+.i_div2 p{
+    width: 301.33px;
+    height: 96px;
+  }
+  .i_div3 p{
+    width: 301.33px;
+    height: 72px;
+  }
+  
+
+  .div3{
+    background-color: #d5d5d6;
+  }
+.div3_child1{
+    background-color: white;
+    width:224px;
+    height: 252px;
+}
+  .div3_child1 img{
+    width:144px;
+    height:160px;
+  }
