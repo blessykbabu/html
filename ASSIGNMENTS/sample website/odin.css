@@ -7,19 +7,42 @@
 .navbar{
     padding: 8px 24px;
     width: 100vw;
-    border: 2px solid green;
-    background-color: aqua;
+    position: relative;
 }
 .listing{
     display: flex;
     list-style-type: none ;
-    margin: 0px 0px 24px;
-    padding: 0px 5px 5px 20px;
+    position: relative;
+    margin-top: -50px;
+    margin-left: 40px;
+    /* margin: 0px 0px 24px;
+    padding: 0px 5px 5px 20px; */
 }
 .navbar a{
-    color: white;
+    color: rgb(155, 154, 154);
     text-decoration: none;
-    margin-right: 50px;
+    margin-right: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+}
+.navbar li{
+    position: relative;
+    /* margin-right: 10px; */
+    margin-left: 60px;
+    padding: 3px;
+    margin-top: 0px;
+}
+li button{
+    background-color:rgb(97, 158, 143);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 0px;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    padding: 2px;
+}
+.div1 h1{
+    font-size: 42px;
 }
