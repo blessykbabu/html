@@ -1,0 +1,67 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    width: 50vw;
+    height:50vh;
+    background-color: aquamarine;
+    margin: auto;
+    animation-name: animation2;
+    animation-duration: 2sec;
+    animation-iteration-count: 3;
+
+
+}
+.child{
+    position:absolute;
+    background-color: blueviolet;
+    width: 20%;
+    height:20%;
+    /* animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: 4; */
+    /* animation-fill-mode:forwards; */
+    /* animation-fill-mode:backwards; */
+    /* animation-timing-function: ease; */
+    /* animation-timing-function: ease-in;
+    animation-delay: 3s;
+   */
+   /* animation: animation1 3s ease-in 2s 5 forwards; */
+   animation-name: animation2;
+   animation-duration: 3s;
+   animation-iteration-count: 6;
+   
+   }
+/* @keyframes animation1{
+    from{
+        height:20%;
+    }
+    to{
+        height:100%
+    }
+} */
+@keyframes animation2{
+    0%{
+        top:0%;
+        left:0%
+    }
+    25%{
+        top:20%;
+        left:30%
+    }
+    50%{
+  top: 50%;
+  left:50%
+    }
+    75%{
+        top:20%;
+        left:70%
+    }
+    100%{
+        top:0%;
+        left: 70%;
+    }
+}
