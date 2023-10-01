@@ -3,6 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.main_container{
+    position: relative;
+  
+}
 .main_container h1{
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
@@ -10,23 +14,28 @@ font-size: 32px;
 margin: 20px;
 }
 .navbar{
-width: 70vw;
+width: 80vw;
 background-color:#f9ece6;
 padding: 2px;
 text-align: center;
-margin-left: 150px;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
+position: relative;
+left: 10%;
+
 }
 .nav_list{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    align-items: stretch;
+    margin-top: 10px;
+
 }
 .nav_list li{
     list-style-type: none;
-    margin: 2em;
+    margin-right:1em;
    
 }
 .nav_list a{
@@ -39,7 +48,7 @@ border-top-right-radius: 10px;
 
 
 .div2{
-    width:70vw;
+    width:80vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,29 +56,55 @@ border-top-right-radius: 10px;
     background-color:#f89cab;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-left: 150px;
     position: relative;
+    left: 10%;
+    align-items: stretch;
+    padding: 3px;
+    /* height: 400px; */
 }
+.div2_child{
+    position: relative;
+    /* margin: 10px; */
+
+}
+
 .div2_child h1{
 font-size: 64px;
 font-family: Arial, Helvetica, sans-serif;
 color: white;
-width:693.41px;
+width:600px;
 height: 48px;
-position:absolute;
 margin: 42.8px 0px;
+padding: 2px;
+display: inline-block;
 
 
 }
 .div2_child p{
-    font-size: 12px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    width:693.41px;
+    width:550px;
     height: 54px;
     margin:16px 0px;
+    line-height: 20px;
+}
+.div2_child img{
+    width: 172.38px;
+    height: 292.56px;
+    padding: 30px;
 }
 .contact{
-    font-size: 20px;
+    font-size: 16px;
     background-color: #de2462;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 168px;
+    height:48px;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 5px;
+    position:absolute;
+    margin-top: 20px;
+    bottom: 0px;
 }
