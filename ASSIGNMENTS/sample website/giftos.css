@@ -88,6 +88,8 @@ left: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+  
 
 }
 .welcome{
@@ -519,6 +521,7 @@ position: relative;
     .div2{
         flex-direction: column;
         
+        
     }
     .div2_child{
         margin: auto;
@@ -526,5 +529,9 @@ position: relative;
     /* .div3_row{
         width: 100%;
     } */
+    .contact{
+        margin-bottom: 30px;
+    }
+    
 }
 
