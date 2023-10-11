@@ -315,6 +315,8 @@ position: relative;
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
+   
+    
  
 }
 .row1{
@@ -345,6 +347,7 @@ position: relative;
     font-size: 12px;
     line-height: 20px;
     padding: 2px;
+    color: black;
 
 }
 .div5{
@@ -478,6 +481,7 @@ position: relative;
     line-height: 20px;
     margin: 10px;
     text-align: justify;
+    color: black;
 }
 .footer{
     background-color:black;
