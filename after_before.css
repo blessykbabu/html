@@ -1,0 +1,71 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+color: white;
+font-size:large;
+font-weight: bolder;
+
+
+}
+nav ul{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+nav ul li{
+    margin: 20px;
+    list-style: none;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    padding: 20px;
+    position: relative;
+    
+}
+
+/* header::before{
+    background: url("./images/pink-8253910_1280.webp") no-repeat center center/cover;
+    content: '';
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .75;
+} */
+
+  /* background image foe section only */
+
+  section::before{
+    background: url("./images/pink-8253910_1280.webp") no-repeat center center/cover;
+    content: '';
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .75;
+}
+/* 
+header::after{
+    background: url("./images/pink-8253910_1280.webp") no-repeat center center/cover;
+    content: '';
+    position:absolute;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .75;
+} */
