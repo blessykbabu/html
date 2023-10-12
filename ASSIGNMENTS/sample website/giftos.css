@@ -14,7 +14,6 @@ font-size: 32px;
 margin: 20px;
 }
 .navbar{
-width: 80vw;
 background-color:#f9ece6;
 padding: 2px;
 text-align: center;
@@ -68,7 +67,6 @@ left: 10%;
 
 
 .div2{
-    width:80vw;
     display: flex;
     flex-wrap: wrap;
     background-color:#f89cab;
@@ -138,8 +136,8 @@ text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 32px;
 position: relative;
-/* display: inline;
-top: 50px; */
+
+margin-top: 40px;
 
 }
 
@@ -148,24 +146,22 @@ top: 50px; */
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: stretch;
 }
 .div3_row{
     background-color: rgb(216, 212, 212);
     margin: 1em;
-    width: 200px;
-    height: 350px;
+    /* width: 200px;
+    height: 350px; */
     border-radius: 5px;
-    position: relative;
+    /* position: relative; */
 }
 .circle{
     background-color: white;
-    width:60px;
+    max-width:60px;
     min-height: 60px;
     border-radius: 50%;
-    position: relative;
+    /* position: relative; */
     padding: 2px;
-    display: inline-block;
     margin: 10px;
 }
 .circle h4{
@@ -173,29 +169,40 @@ top: 50px; */
   height: 100%;
   width: 100%;
   text-align: center;
-  display: inline-block;
+  /* display: inline-block; */
   margin-top: 20px;
 }
 .circle h4:hover{
     color:#db4567;
 }
-.div3_row img{
-    width:70px;
-    height: 70px;
-    padding: 2px;
-    margin: 50px;
-    position: relative;
-    display: inline-block;
-   right: 40px;
-   left: 10px;
+.item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .name{
+    display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+     margin: 10px;
+}
+.div3_row img{
+    max-width:70px;
+    min-height: 70px;
+ 
+    /* padding: 2px; */
+    /* margin: 50px; */
+    /* position: relative;
+    display: inline-block;
+   right: 40px;
+   left: 10px; */
 }
 .price{
-    display: inline-block;
-    margin-top:20px;
+    margin: 1em;
 }
 .name span{
     color: #db4567;
@@ -220,16 +227,12 @@ top: 50px; */
 
 .div4{
     background-color: skyblue;
-    width: 80vw;
     position: relative;
     left: 10%;
-    align-items: stretch;
     padding: 3px;
     border: 0px;
     border-radius: 10px;
     margin: 30px;
-}
-.div4_child{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,10 +253,10 @@ top: 50px; */
 }
 
 .div4_row img{
-    width: 250px;
-    height: 300px;
+    max-width: 250px;
+    min-height: 300px;
     padding: 5px;
-    display: inline-block;
+    /* display: inline-block; */
     top:0px;
 }
 .div4_row2 h2{
@@ -352,57 +355,37 @@ position: relative;
 }
 .div5{
     background-color:blueviolet;
-    width: 80vw;
     position: relative;
     left: 10%;
-    align-items: stretch;
-    padding: 3px;
     border: 0px;
     border-radius: 10px;
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-items: stretch;
-    flex-wrap: wrap;
-    position: relative;
-    justify-content: space-evenly;
+   
+   
 
 }
 
 .div5_row{
-    position: relative;
-    margin: 2em;
+   
 }
 .div5_row2{
-    position: relative;
-    display: inline-block;
-    top: 90px;
-    padding: 20px;
+  
 }
 
 .div5_row img{
-    width: 250px;
-    height: 300px;
-    padding: 5px;
-    display: inline-block;
+    max-width: 250px;
+    min-height: 300px;
     top:0px;
 }
 .div5_row2 h2{
 color: white;
 font-family: Arial, Helvetica, sans-serif;
-font-size: 40px;
-width: 183.46px;
-height: 183.47px;
 
 }
 .div5_row2 p{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    width: 572.13px;
-    height: 92.97px;
     font-size: 20px;
-    margin: 60px 0px;
+  
 }
 .buy1{
     color: white;
@@ -427,7 +410,6 @@ font-size: 32px;
 position: relative;
 }
 .div6{
-    width: 40vw;
     position: relative;
     left: 10%;
     align-items: stretch;
