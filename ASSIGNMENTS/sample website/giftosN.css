@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.giftos{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 32px;
+margin: 20px;
+}
+.navbar{
+background-color:#f9ece6;
+padding: 2px;
+text-align: center;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+position: relative;
+margin: 2rem 2rem 0rem 2rem;
+
+}
+.nav_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: 20px;
+
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login img{
+    margin-right: 5px;
+    height: 15px;
+    width:20px;
+    align-self:flex-start;
+}
+
+.login a{
+    align-self:flex-start ;
+}
+.mall{
+    align-self:flex-start;
+}
+
+.nav_list li{
+    list-style-type: none;
+    margin:0em 1em 0em 1em;
+   
+}
+.nav_list a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.div2{
+    margin: 0em 2em 2em 2em;
+    background-color:#f89cab;
+    display: flex;
+ 
+}
+.welcome{
+    margin: 4em;
+}
+.img-div{
+    margin: 4em;
+}
+.img-div img{
+    max-width: 172.38px;
+    min-height: 292.56px;
+   
+}

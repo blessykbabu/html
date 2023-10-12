@@ -1,0 +1,480 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.giftos{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 32px;
+margin: 20px;
+}
+.navbar{
+background-color:#f9ece6;
+padding: 2px;
+text-align: center;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+position: relative;
+margin: 2rem 2rem 0rem 2rem;
+
+}
+.nav_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: 20px;
+
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login img{
+    margin-right: 5px;
+    height: 15px;
+    width:20px;
+    align-self:flex-start;
+}
+
+.login a{
+    align-self:flex-start ;
+}
+.mall{
+    align-self:flex-start;
+}
+
+.nav_list li{
+    list-style-type: none;
+    margin:0em 1em 0em 1em;
+   
+}
+.nav_list a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.div2{
+    background-color:#f89cab;
+    margin: 0rem 2rem 2rem 2rem;
+    display: flex;
+}
+.div2_child{
+ 
+    background-color: chartreuse;
+}
+.div-img img{
+    max-width: 172.38px;
+    min-height: 292.56px;
+    background-color: black;
+   
+}
+.contact{
+    font-size: 16px;
+    background-color: #de2462;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width:250px;
+    min-height:50px;
+    margin: 20px;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 5px;  
+}
+.contact:hover{
+    background-color: transparent;
+    color: #de2462;
+    border: 2px solid #db4567;
+}
+.latest{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 32px;
+position: relative;
+
+margin-top: 40px;
+
+}
+
+.div3_column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.div3_row{
+    background-color: rgb(216, 212, 212);
+    margin: 1em;
+    /* width: 200px;
+    height: 350px; */
+    border-radius: 5px;
+    /* position: relative; */
+}
+.circle{
+    background-color: white;
+    max-width:60px;
+    min-height: 60px;
+    border-radius: 50%;
+    /* position: relative; */
+    padding: 2px;
+    margin: 10px;
+}
+.circle h4{
+    font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  /* display: inline-block; */
+  margin-top: 20px;
+}
+.circle h4:hover{
+    color:#db4567;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+     margin: 10px;
+}
+.div3_row img{
+    max-width:70px;
+    min-height: 70px;
+ 
+    /* padding: 2px; */
+    /* margin: 50px; */
+    /* position: relative;
+    display: inline-block;
+   right: 40px;
+   left: 10px; */
+}
+.price{
+    margin: 1em;
+}
+.name span{
+    color: #db4567;
+}
+.view{
+    background-color: #db4567;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.div4{
+    background-color: skyblue;
+    margin:2em ;
+    padding: 3px;
+    border: 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.div4_row{
+    /* position: relative;
+    margin: 2em; */
+}
+.div4_row2{
+    /* position: relative;
+    display: inline-block;
+    top: 50px;
+    padding: 20px; */
+}
+
+.div4_row img{
+    max-width: 250px;
+    min-height: 300px;
+    /* padding: 5px; */
+    /* display: inline-block; */
+    top:0px;
+}
+.div4_row2 h2{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+/* width: 183.46px;
+height: 183.47px; */
+
+}
+.div4_row2 p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* width: 572.13px;
+    height: 92.97px;
+    font-size: 20px;
+    margin: 20px 0px; */
+}
+.buy{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: rgb(85, 184, 224);
+    border: 0px;
+    border-radius: 5px;
+    width:140px;
+    height: 50px;
+    padding: 5px;
+}
+.see{
+    display: inline-block;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+    width:140px;
+    height: 50px;
+    padding: 5px;
+    
+}
+.button{
+    text-align: center;
+    border: 0px;
+    margin-top: 10px;
+    margin-left: 40px;
+    flex-wrap: wrap;
+}
+.why{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 32px;
+position: relative;
+}
+.shop-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+   
+    
+ 
+}
+.row1{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(249, 246, 246);
+    margin: 1em;
+}
+.image{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.row1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+     /* margin:20px; */
+     display: inline-block;
+     margin-top: 20px;
+     margin-left: 30px;
+}
+.row1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    width:140px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 2px;
+    color: black;
+
+}
+.div5{
+    background-color:blueviolet;
+    margin: 2em;
+    border: 0px;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.div5_row{
+   margin: 4em;
+}
+.div5_row2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.div5_row img{
+    max-width: 300px;
+    min-height: 300px;
+    top:0px;
+}
+.div5_row2 h2{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.div5_row2 p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  
+}
+.buy1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color:rgb(175, 103, 242);
+    border: 0px;
+    border-radius: 5px;
+    width:140px;
+    height: 50px;
+    padding: 5px;
+}
+.gift_button{
+    display: inline-block;
+    margin-top:30px;
+}
+
+.contact-us{
+    text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 32px;
+position: relative;
+}
+.div6{
+    position: relative;
+    left: 10%;
+    align-items: stretch;
+    padding: 3px;
+    border: 0px;
+    border-radius: 10px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-evenly;
+
+}
+
+.div6_row{
+    position: relative;
+    margin: 2em;
+}
+.test{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    position: relative;
+}
+
+.div-testimonial{
+    border: 1px solid black;
+    width:40vw;
+    margin: auto;
+   
+}
+.rochak{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #db4567;
+   margin: 20px;
+}
+.default{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(201, 197, 197);
+    margin: 10px;
+}
+
+.div-testimonial p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    margin: 10px;
+    text-align: justify;
+    color: black;
+}
+.footer{
+    background-color:black;
+    width: 80vw;
+    position: relative;
+    left: 10%;
+    align-items: stretch;
+    padding: 3px;
+    border: 0px;
+    border-radius: 10px;
+    margin: 30px;  
+}
+@media only screen and (max-width:975px){
+    .nav_list li{
+        margin:1em;
+    }
+
+}
+
+@media only screen and (max-width:400px){
+    .nav_list {
+       flex-direction: column;
+    }
+}
+@media only screen and (max-width:400px){
+    .mall {
+       align-self: center;
+    }
+}
+@media only screen and (max-width:190px){
+    .nav_list a{
+       font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width:1700px){
+    .div-img{
+       order: -1;
+    }
+    .div2{
+        flex-direction: column;
+        
+        
+    }
+    .div2_child{
+        margin: auto;
+    }
+    /* .div3_row{
+        width: 100%;
+    } */
+    .contact{
+        margin-bottom: 30px;
+    }
+    
+}
+
