@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:blue;
+    --secondary-color:orange; 
+}
+.container{
+    /* --primary-color:blue;
+    --secondary-color:orange; */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.box{
+    background-color:var(--primary-color);
+    border: 2px solid var(--secondary-color);
+    width: 200px;
+    height: 200px;
+}
+  /* applioes properties to p inside li which is inside odfdiv */
+div li p{
+    color:red ;
+}
+
+
+/* any p inside div that can be child of another element also apply */
+div p{
+    color: red;
+}
+
+
+/* if p is right inside div , then it will apply the properties */
+div > p{
+    color: blue;
+}
+
+/* style to paragraph right after div, ie,p is the next siblings of div */
+div + p{
+    color: blueviolet;
+}
