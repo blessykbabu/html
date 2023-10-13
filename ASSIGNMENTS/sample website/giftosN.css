@@ -456,6 +456,16 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    border: 2px solid blue;
+}
+.footer-content h2{
+    text-align: center;
+}
+.user-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .about-us{
    
@@ -463,8 +473,6 @@
     margin:20px;
 }
 .newsletter{
-
-  
     max-width: 40%;
 }
 .needhelp{
