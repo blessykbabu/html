@@ -373,10 +373,11 @@
     flex-wrap: wrap;
     width: 400px;
     height: 638px;
+    border: 2px solid black;
 
 }
 
-form input {
+.input-item input {
     width: 100%;
     height: 20%;
     margin: 10px;
@@ -386,42 +387,92 @@ form input {
 }
 
 
-.test{
+.test {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     margin-top: 40px;
 }
 
-.div-testimonial{
+.div-testimonial {
     border: 1px solid black;
-    width:40vw;
-    margin:20px;
-  margin: auto;
-  margin-top: 20px;
+    width: 40vw;
+    margin: 20px;
+    margin: auto;
+    margin-top: 20px;
 }
-.rochak{
+
+.rochak {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: #db4567;
-   margin: 20px;
+    margin: 20px;
 }
-.default{
+
+.default {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(201, 197, 197);
     margin: 20px;
-   
+
 }
 
-.div-testimonial p{
+.div-testimonial p {
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 20px;
     margin: 10px;
     text-align: justify;
     color: black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2em; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.div-icons {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin:20px;
+   
+}
+
+.div-icons img{
+  max-width: 40px;
+  min-height: 40px;
+}
+.footer-content{
     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about-us{
+   
+    max-width: 20%;
+    margin:20px;
+}
+.newsletter{
+
+  
+    max-width: 40%;
+}
+.needhelp{
+    max-width: 20%;
+    margin: 20px;
+}
+.footer-content p{
+    margin: 10px;
 }
 
 @media only screen and (max-width:975px) {
@@ -492,6 +543,15 @@ form input {
 
 }
 
+@media only screen and (max-width:1128px) {
+    .second-product {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+}
+
 @media only screen and (max-width:603px) {
     .row1 {
 
@@ -500,39 +560,71 @@ form input {
         max-width: 100%;
     }
 }
+
 @media only screen and (max-width:700px) {
-    .navbar{
-        width:100%;
-        margin:0px;
+    .navbar {
+        width: 100%;
+        margin: 0px;
     }
-    .div2{
+
+    .div2 {
         margin: 0px;
         width: 100%;
     }
-    .products{
+
+    .products {
         margin: 0px;
         width: 100%;
     }
-    .div-savings{
+
+    .div-savings {
         margin: 0px;
         width: 100%;
     }
-    .shop-row{
+
+    .row1 {
+
+        /* margin: 0px; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .view-products {
+        margin-bottom: 10px;
+    }
+
+    .row1 p {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .map {
+        margin: 0px;
+    }
+
+    .input-item {
+        margin: 0px;
+
+    }
+
+    .div-gift {
         margin: 0px;
         width: 100%;
     }
-    .div-gift{
+
+    .div-testimonial {
         margin: 0px;
         width: 100%;
     }
-    .div-testimonial{
-        margin: 0px;
-        width: 100%;
-    }
+
 }
 
 @media only screen and (max-width:870px) {
-    .input-item input{
-        width:100%
+    .input-item input {
+        width: 100%
     }
 }
