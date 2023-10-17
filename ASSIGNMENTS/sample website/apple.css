@@ -10,6 +10,7 @@
    padding: 2px;
     
 }
+
 .nav_list {
     display: flex;
     justify-content: center;
@@ -35,6 +36,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+    
     
 }
 
@@ -62,7 +65,9 @@
     margin: 20px;
     color: blue;
 }
-
+.iphone-img img{
+    max-width:100%;
+}
 
 
 .iphone15b{
@@ -92,8 +97,53 @@
 .new a{
     margin: 5px;
 }
-.iphone-imgb{
-    position: absolute;
-    z-index:-1;
+.iphone-imgb img{
+    max-width:100%;
+    height: 100%;
    
+}
+
+
+@media only screen and (max-width:1163px){
+    .nav_list{
+    visibility: hidden;
+    }
+   
+   
+}
+
+
+@media only screen and (max-width:1061px){
+    .nav_list li{
+        margin: 0px;
+       }
+   
+    .navbar{
+    width: 100%;
+    margin: 0px;
+    }
+    .iphone15{
+        width:100%;
+        margin:0px;
+        
+    }
+    .iphone-img{
+        width: 100%;
+    }
+    .iphone15b{
+        width:100%;
+        margin:0px;
+        
+    }
+    .iphone-imgb{
+        max-width: 100%;
+    }
+  
+  
+}
+@media only screen and (max-width:1061px){
+.iphone-img img{
+    display: flex;
+    flex-direction: column;
+}
 }
